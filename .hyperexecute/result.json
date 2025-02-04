@@ -1,0 +1,353 @@
+{
+    "id": "a05c9161-f0d7-4c8e-b2df-62345a08eed3",
+    "created_at": "2025-02-04T08:40:53Z",
+    "update_at": "2025-02-04T08:50:31Z",
+    "global_timeout": 150,
+    "tunnel_name": "",
+    "start_time": "2025-02-04T08:41:54Z",
+    "end_time": "2025-02-04T08:50:31Z",
+    "summary": {
+        "total_time": 517000000000,
+        "execution_time": 517000000000,
+        "total_tasks": 12,
+        "build_time_consumed": 326000000000,
+        "jobTestExecutionTime": "0s",
+        "failed_tasks": 12,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 100,
+                "StagePassPercent": 0,
+                "TotalStage": 12
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=a05c9161-f0d7-4c8e-b2df-62345a08eed3"
+    },
+    "tasks": [
+        {
+            "id": "cbcf78e7-ec09-4cd9-ac97-5b8025d4feb4",
+            "os": "win",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:47:32Z",
+            "start_time": "2025-02-04T08:46:54Z",
+            "end_time": "2025-02-04T08:47:32Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "d6c7d80b-fda0-40da-b76b-ae1e978d053c",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:46:54Z",
+                    "started_at": "2025-02-04T08:46:54Z",
+                    "updated_at": "2025-02-04T08:47:32Z",
+                    "order": 2,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "ae861bba-fe5e-4aee-8404-90965193884e",
+            "os": "win",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:42:37Z",
+            "start_time": "2025-02-04T08:41:54Z",
+            "end_time": "2025-02-04T08:42:37Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "3ee5ad3d-96b3-494b-b90e-15e8446683b4",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:41:54Z",
+                    "started_at": "2025-02-04T08:41:54Z",
+                    "updated_at": "2025-02-04T08:42:37Z",
+                    "order": 2,
+                    "task_number": 2
+                }
+            ]
+        },
+        {
+            "id": "db5c04cc-a395-4c45-b38f-c8b7ffd122eb",
+            "os": "win",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:47:36Z",
+            "start_time": "2025-02-04T08:46:54Z",
+            "end_time": "2025-02-04T08:47:36Z",
+            "group_number": 3,
+            "stages": [
+                {
+                    "id": "17398cd1-9e47-4181-a214-0fd652d98e1c",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:46:54Z",
+                    "started_at": "2025-02-04T08:46:54Z",
+                    "updated_at": "2025-02-04T08:47:36Z",
+                    "order": 2,
+                    "task_number": 3
+                }
+            ]
+        },
+        {
+            "id": "4026b527-3ee1-43fc-a761-7675ddc20b87",
+            "os": "win",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:48:26Z",
+            "start_time": "2025-02-04T08:47:48Z",
+            "end_time": "2025-02-04T08:48:26Z",
+            "group_number": 4,
+            "stages": [
+                {
+                    "id": "5fa9cb50-586d-4201-b3f7-f52f14c2d323",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:47:49Z",
+                    "started_at": "2025-02-04T08:47:49Z",
+                    "updated_at": "2025-02-04T08:48:26Z",
+                    "order": 2,
+                    "task_number": 4
+                }
+            ]
+        },
+        {
+            "id": "9dd02c93-dba0-4dad-88f4-5682d945be59",
+            "os": "win",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:48:30Z",
+            "start_time": "2025-02-04T08:47:52Z",
+            "end_time": "2025-02-04T08:48:30Z",
+            "group_number": 5,
+            "stages": [
+                {
+                    "id": "1d460c0e-bc53-450d-853e-9cddb4ace5a5",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:47:52Z",
+                    "started_at": "2025-02-04T08:47:52Z",
+                    "updated_at": "2025-02-04T08:48:30Z",
+                    "order": 2,
+                    "task_number": 5
+                }
+            ]
+        },
+        {
+            "id": "ec86f59a-9920-4b67-9d72-49bdb7d8a450",
+            "os": "win",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:49:24Z",
+            "start_time": "2025-02-04T08:48:42Z",
+            "end_time": "2025-02-04T08:49:24Z",
+            "group_number": 6,
+            "stages": [
+                {
+                    "id": "8801c1ad-4ada-4f33-a314-ecd066d2bf8e",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:48:42Z",
+                    "started_at": "2025-02-04T08:48:42Z",
+                    "updated_at": "2025-02-04T08:49:24Z",
+                    "order": 2,
+                    "task_number": 6
+                }
+            ]
+        },
+        {
+            "id": "f6b2001e-a9da-4f53-aa2d-66b6c663a5bf",
+            "os": "linux",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:49:01Z",
+            "start_time": "2025-02-04T08:48:46Z",
+            "end_time": "2025-02-04T08:49:01Z",
+            "group_number": 7,
+            "stages": [
+                {
+                    "id": "17951b1d-5032-4dce-bcd4-fe0a6663ce80",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:48:47Z",
+                    "started_at": "2025-02-04T08:48:47Z",
+                    "updated_at": "2025-02-04T08:49:01Z",
+                    "order": 2,
+                    "task_number": 7
+                }
+            ]
+        },
+        {
+            "id": "2bf1bbad-511b-4432-ab92-35903addd81c",
+            "os": "linux",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:49:33Z",
+            "start_time": "2025-02-04T08:49:17Z",
+            "end_time": "2025-02-04T08:49:33Z",
+            "group_number": 8,
+            "stages": [
+                {
+                    "id": "9a9204d8-6c69-4d4a-98e4-0e7f3cf0352e",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:49:17Z",
+                    "started_at": "2025-02-04T08:49:17Z",
+                    "updated_at": "2025-02-04T08:49:33Z",
+                    "order": 2,
+                    "task_number": 8
+                }
+            ]
+        },
+        {
+            "id": "ae1d79e7-b8ce-40e6-a9f4-b4779c7e7d06",
+            "os": "linux",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:49:53Z",
+            "start_time": "2025-02-04T08:49:40Z",
+            "end_time": "2025-02-04T08:49:53Z",
+            "group_number": 9,
+            "stages": [
+                {
+                    "id": "12345527-3d02-4dea-9008-2f25caa7f4dd",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:49:41Z",
+                    "started_at": "2025-02-04T08:49:41Z",
+                    "updated_at": "2025-02-04T08:49:53Z",
+                    "order": 2,
+                    "task_number": 9
+                }
+            ]
+        },
+        {
+            "id": "0f66b6ba-e853-4ae5-a258-8521d2a366af",
+            "os": "linux",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:50:02Z",
+            "start_time": "2025-02-04T08:49:49Z",
+            "end_time": "2025-02-04T08:50:02Z",
+            "group_number": 10,
+            "stages": [
+                {
+                    "id": "b4012dae-40ac-4a9e-aa7d-0cccf188cdf0",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:49:49Z",
+                    "started_at": "2025-02-04T08:49:50Z",
+                    "updated_at": "2025-02-04T08:50:02Z",
+                    "order": 2,
+                    "task_number": 10
+                }
+            ]
+        },
+        {
+            "id": "d48925e8-55bd-4a1c-90bc-b4d290012451",
+            "os": "linux",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:50:25Z",
+            "start_time": "2025-02-04T08:50:10Z",
+            "end_time": "2025-02-04T08:50:25Z",
+            "group_number": 11,
+            "stages": [
+                {
+                    "id": "db057170-2560-498d-8518-dd54ff9fcd03",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:50:10Z",
+                    "started_at": "2025-02-04T08:50:10Z",
+                    "updated_at": "2025-02-04T08:50:25Z",
+                    "order": 2,
+                    "task_number": 11
+                }
+            ]
+        },
+        {
+            "id": "48679df8-e351-44da-91d6-b0138c497c5e",
+            "os": "linux",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
+            "debug": false,
+            "created_at": "2025-02-04T08:41:37Z",
+            "update_at": "2025-02-04T08:50:31Z",
+            "start_time": "2025-02-04T08:50:18Z",
+            "end_time": "2025-02-04T08:50:31Z",
+            "group_number": 12,
+            "stages": [
+                {
+                    "id": "7af68c17-fdd1-4bb3-9e28-d32fa39fe3dd",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T08:50:18Z",
+                    "started_at": "2025-02-04T08:50:18Z",
+                    "updated_at": "2025-02-04T08:50:31Z",
+                    "order": 2,
+                    "task_number": 12
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}

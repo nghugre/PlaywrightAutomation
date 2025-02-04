@@ -13,7 +13,7 @@ maxRetries: 1
 
 matrix:
   os: [win, linux]
-  browser: ["Chrome", "Firefox"]
+  browser: ["chrome", "firefox"]
 parallelism: 3
 
 env:
@@ -26,10 +26,9 @@ cacheDirectories:
 
 # Pre-execution steps
 pre:
-  # Install the required Playwright version
   - npm install playwright@1.49.0 --save-exact
-  # Download and install Maven packages
   - mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install
+  - npm install lambda-test-sdk --save-exact  # If necessary for LambdaTest
 
 report: true
 

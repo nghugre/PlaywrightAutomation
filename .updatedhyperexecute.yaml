@@ -1,0 +1,162 @@
+version: "0.1"
+user: nitin_ghugare
+key: GB0X4pJZeWJGoh8vnRcG7vdTDbe02AapWYBOS50udqFCPIsjKp
+matrix: {browser: [Chrome, Firefox], os: [win, linux]}
+testSuites: []
+pre: [npm install playwright@1.49.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install]
+preDirectives:
+    commands: [npm install playwright@1.49.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+env:
+    TARGET_OS: Windows 10
+jobLabel:
+    - hybrid-mode
+runson: ${matrix.os}
+autosplit: true
+concurrency: 3
+testDiscovery:
+    autosubset: true
+    command: grep -rl '@Test' src/main/java/com/pdea/PlaywrightAutomation/PlaywrightAutomation.java | awk -F'/' '{print substr($NF, 1, length($NF)-5)}'
+    linuxCommand: grep -rl '@Test' src/main/java/com/pdea/PlaywrightAutomation/PlaywrightAutomation.java | awk -F'/' '{print substr($NF, 1, length($NF)-5)}'
+    mode: dynamic
+    type: raw
+    winCommand: grep -rl '@Test' src/main/java/com/pdea/PlaywrightAutomation/PlaywrightAutomation.java | awk -F'/' '{print substr($NF, 1, length($NF)-5)}'
+globalTimeout: 150
+tunnelOpts:
+    testsPerTunnel: 10
+testSuiteTimeout: 10
+testSuiteStep: 150
+cacheDirectories:
+    - .m2
+cacheKey: '{{ checksum "pom.xml" }}'
+retryOnFailure: true
+maxRetries: 1
+jobID: a05c9161-f0d7-4c8e-b2df-62345a08eed3
+mergeArtifacts: true
+uploadArtefacts:
+    - name: Surefire-Report
+      path:
+        - target/surefire-reports/**
+      email:
+        to: []
+        metaInfo: []
+        linkValidity: 0
+parallelism: 3
+linuxParallelism: 3
+winParallelism: 3
+winTestRunnerCommand: mvn test -Dplatname=win -Dmaven.repo.local=./.m2 -Dtest=$test surefire-report:report
+linuxTestRunnerCommand: mvn test -Dplatname=linux -Dmaven.repo.local=./.m2 -Dtest=$test surefire-report:report
+codeDirectory: PlaywrightAutomation
+report: true
+framework:
+    name: ""
+    flags: []
+    discoveryFlags: []
+    discoveryMode: ""
+    discoveryType: ""
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: false
+    args:
+        appPath: ""
+        testSuitePath: ""
+        xcTestPlanPath: ""
+        shards:
+            mappings: []
+        filters:
+            attributes: []
+        devices: []
+        deviceSelectionStrategy: ""
+        appId: ""
+        testSuiteAppId: ""
+        xcTestPlanId: ""
+        skipXMLOnRun: false
+        skipInstall: false
+        disableReleaseDevice: false
+        platformName: ""
+        isRealMobile: null
+        avoidAppLaunch: false
+        queueTimeout: 0
+        uninstallPreviousBuild: false
+        language: ""
+        locale: ""
+        preservedDevice: false
+        fixedIP: ""
+        resignApp: true
+        minorOsVersion: false
+        playwrightRD: false
+        mobileDC: null
+        skipUninstallPreviousBuild: false
+        isVirtualDevice: false
+        mitmProxy: false
+        networkHar: false
+        artifacts: false
+        otherApps: []
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+    baseCommand: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+testType: playwright
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+sourcePayload:
+    verifySSL: true
+collectLocalGitData: true
+dynamicAllocation: false
+appium: false
+platformConfig: null
+differentialUpload:
+    enabled: false
+    ttlHours: null
+    forcedDisabled: false
+project:
+    id: ""
+    name: ""
+    type: default
+meta: {}
+alwaysRunPostSteps: false
+errorCategorizedOnFailureOnly: false
+testDiscoveryResultV3: []
+storageType: ""
+localHTTPProxy: ""
+regionConfig:
+    vm: []
+    storage:
+        region: ""
+        enabled: false
+        name: ""
+        platform: azure
+waitForArtefactsUpload: false
+unzipPayload: false
+projectpath: ""
+accessibilityJob: false
+globalPre:
+    mode: ""
+    commands: []
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+    completed: false
+globalPost:
+    mode: ""
+    commands: []
+    shell: ""
+    workingDirectory: ""
+    completed: false
+slackChannel: ""
+whiteLabelProductTag: ""
