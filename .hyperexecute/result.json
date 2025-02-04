@@ -1,213 +1,352 @@
 {
-    "id": "d275ba27-24cb-4c86-a99a-c43462921596",
-    "remark": "job has been aborted by user",
-    "created_at": "2025-02-04T09:12:43Z",
-    "update_at": "2025-02-04T09:14:28Z",
+    "id": "59692771-bf7c-4357-af5d-fadf5002f28b",
+    "created_at": "2025-02-04T09:28:00Z",
+    "update_at": "2025-02-04T09:34:25Z",
     "global_timeout": 150,
     "tunnel_name": "",
-    "start_time": "2025-02-04T09:13:39Z",
-    "end_time": "2025-02-04T09:14:28Z",
+    "start_time": "2025-02-04T09:28:56Z",
+    "end_time": "2025-02-04T09:34:25Z",
     "summary": {
-        "total_time": 105000000000,
-        "execution_time": 49000000000,
+        "total_time": 329000000000,
+        "execution_time": 329000000000,
         "total_tasks": 12,
-        "build_time_consumed": 81000000000,
+        "build_time_consumed": 390000000000,
         "jobTestExecutionTime": "0s",
-        "failed_tasks": 0,
+        "failed_tasks": 12,
         "total_stage_info": {
             "prerun": {
                 "StageFailedPercent": 100,
                 "StagePassPercent": 0,
-                "TotalStage": 2
+                "TotalStage": 12
             }
         },
-        "status": "aborted",
-        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=d275ba27-24cb-4c86-a99a-c43462921596"
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=59692771-bf7c-4357-af5d-fadf5002f28b"
     },
     "tasks": [
         {
-            "id": "70051ff5-1eac-4f85-91e0-e01819eb952c",
+            "id": "0b463646-0547-4078-a570-bd52f2233f6a",
             "os": "win",
             "status": "failed",
             "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:19Z",
-            "start_time": "2025-02-04T09:13:39Z",
-            "end_time": "2025-02-04T09:14:19Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:29:38Z",
+            "start_time": "2025-02-04T09:28:56Z",
+            "end_time": "2025-02-04T09:29:38Z",
             "group_number": 1,
             "stages": [
                 {
-                    "id": "2eb334c2-40ab-4be7-ae44-32c568650663",
+                    "id": "8039af5c-f850-48b5-9d4c-cab73211a5b5",
                     "type": "prerun",
                     "status": "failed",
                     "name": "pre",
                     "iteration": 0,
                     "link": "pre.log",
-                    "created_at": "2025-02-04T09:13:39Z",
-                    "started_at": "2025-02-04T09:13:40Z",
-                    "updated_at": "2025-02-04T09:14:19Z",
+                    "created_at": "2025-02-04T09:28:57Z",
+                    "started_at": "2025-02-04T09:28:57Z",
+                    "updated_at": "2025-02-04T09:29:38Z",
                     "order": 2,
                     "task_number": 1
                 }
             ]
         },
         {
-            "id": "df0fff9d-7323-4380-95ef-9e6c957f2cc4",
+            "id": "36bf42ef-99ee-4624-a7a4-afca44e09974",
             "os": "win",
             "status": "failed",
             "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:20Z",
-            "start_time": "2025-02-04T09:13:39Z",
-            "end_time": "2025-02-04T09:14:20Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:29:50Z",
+            "start_time": "2025-02-04T09:28:56Z",
+            "end_time": "2025-02-04T09:29:50Z",
             "group_number": 2,
             "stages": [
                 {
-                    "id": "2b1408ff-20d1-4283-a278-093797e73456",
+                    "id": "dadde46a-7ac0-4129-a8d1-44d1f5c0aa70",
                     "type": "prerun",
                     "status": "failed",
                     "name": "pre",
                     "iteration": 0,
                     "link": "pre.log",
-                    "created_at": "2025-02-04T09:13:39Z",
-                    "started_at": "2025-02-04T09:13:39Z",
-                    "updated_at": "2025-02-04T09:14:20Z",
+                    "created_at": "2025-02-04T09:28:57Z",
+                    "started_at": "2025-02-04T09:28:57Z",
+                    "updated_at": "2025-02-04T09:29:49Z",
                     "order": 2,
                     "task_number": 2
                 }
             ]
         },
         {
-            "id": "f83a1249-fde2-435c-9d63-eb3cd16789a3",
+            "id": "475400d6-e4ea-4384-94e2-29e924c87627",
             "os": "win",
-            "status": "aborted",
-            "remark": "task has been aborted by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:30:37Z",
+            "start_time": "2025-02-04T09:29:54Z",
+            "end_time": "2025-02-04T09:30:37Z",
             "group_number": 3,
-            "stages": null
+            "stages": [
+                {
+                    "id": "bcefdcab-79a6-4d69-8680-100b5684204e",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:29:55Z",
+                    "started_at": "2025-02-04T09:29:55Z",
+                    "updated_at": "2025-02-04T09:30:37Z",
+                    "order": 2,
+                    "task_number": 3
+                }
+            ]
         },
         {
-            "id": "8d1280c6-81b7-45ab-9317-68299235918e",
+            "id": "796e4420-5056-4567-ba84-014790d88a3f",
             "os": "win",
-            "status": "aborted",
-            "remark": "task has been aborted by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:30:46Z",
+            "start_time": "2025-02-04T09:30:06Z",
+            "end_time": "2025-02-04T09:30:46Z",
             "group_number": 4,
-            "stages": null
+            "stages": [
+                {
+                    "id": "204da5f8-5d5a-463f-9f44-fe2ab2887c5b",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:30:06Z",
+                    "started_at": "2025-02-04T09:30:06Z",
+                    "updated_at": "2025-02-04T09:30:46Z",
+                    "order": 2,
+                    "task_number": 4
+                }
+            ]
         },
         {
-            "id": "d3fc1847-f0aa-424a-ae6e-7c02a7c167f1",
+            "id": "bf1ccb1a-7331-48f4-aad9-37693bb51e1d",
             "os": "win",
-            "status": "cancelled",
-            "remark": "task has been cancelled by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:31:34Z",
+            "start_time": "2025-02-04T09:30:53Z",
+            "end_time": "2025-02-04T09:31:34Z",
             "group_number": 5,
-            "stages": null
+            "stages": [
+                {
+                    "id": "0f21be4d-5c46-4bd1-a711-e7a0866c2bb2",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:30:54Z",
+                    "started_at": "2025-02-04T09:30:54Z",
+                    "updated_at": "2025-02-04T09:31:34Z",
+                    "order": 2,
+                    "task_number": 5
+                }
+            ]
         },
         {
-            "id": "92e181ee-fde0-4e87-b86a-5ac74db7a69f",
+            "id": "a26ea99a-358a-4323-b2aa-bc9dc23fd1a4",
             "os": "win",
-            "status": "cancelled",
-            "remark": "task has been cancelled by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:31:49Z",
+            "start_time": "2025-02-04T09:31:02Z",
+            "end_time": "2025-02-04T09:31:49Z",
             "group_number": 6,
-            "stages": null
+            "stages": [
+                {
+                    "id": "47cba4d7-b7a0-48c6-838c-26e11248a042",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:31:03Z",
+                    "started_at": "2025-02-04T09:31:03Z",
+                    "updated_at": "2025-02-04T09:31:49Z",
+                    "order": 2,
+                    "task_number": 6
+                }
+            ]
         },
         {
-            "id": "e2460ea9-a8c5-41be-ba18-e29b8ce7a072",
+            "id": "2903b192-9f88-4cea-bf0d-a318805d644b",
             "os": "linux",
-            "status": "cancelled",
-            "remark": "task has been cancelled by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:32:23Z",
+            "start_time": "2025-02-04T09:32:02Z",
+            "end_time": "2025-02-04T09:32:23Z",
             "group_number": 7,
-            "stages": null
+            "stages": [
+                {
+                    "id": "b8347bb2-a305-4af3-a726-0ba1b81f7e54",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:32:02Z",
+                    "started_at": "2025-02-04T09:32:02Z",
+                    "updated_at": "2025-02-04T09:32:23Z",
+                    "order": 2,
+                    "task_number": 7
+                }
+            ]
         },
         {
-            "id": "bcfa4ac3-218b-4972-995c-bf5a802553e5",
+            "id": "fbd96429-0a89-49aa-9f2d-926aa7514c9a",
             "os": "linux",
-            "status": "cancelled",
-            "remark": "task has been cancelled by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:32:55Z",
+            "start_time": "2025-02-04T09:32:34Z",
+            "end_time": "2025-02-04T09:32:55Z",
             "group_number": 8,
-            "stages": null
+            "stages": [
+                {
+                    "id": "6a54132c-37e3-409a-be4a-c8f33d5cc232",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:32:35Z",
+                    "started_at": "2025-02-04T09:32:35Z",
+                    "updated_at": "2025-02-04T09:32:55Z",
+                    "order": 2,
+                    "task_number": 8
+                }
+            ]
         },
         {
-            "id": "baf32d96-5fd4-465c-beea-0c0beb28e68d",
+            "id": "9a99238e-5475-4382-be53-c3f83475e3e6",
             "os": "linux",
-            "status": "cancelled",
-            "remark": "task has been cancelled by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:33:05Z",
+            "start_time": "2025-02-04T09:32:42Z",
+            "end_time": "2025-02-04T09:33:05Z",
             "group_number": 9,
-            "stages": null
+            "stages": [
+                {
+                    "id": "92c44cc8-5885-4f94-93ca-34f83220e48d",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:32:42Z",
+                    "started_at": "2025-02-04T09:32:42Z",
+                    "updated_at": "2025-02-04T09:33:04Z",
+                    "order": 2,
+                    "task_number": 9
+                }
+            ]
         },
         {
-            "id": "c4dec287-52b9-4a7b-978a-02848623c86b",
+            "id": "1e3159de-9169-49ab-936b-a2831180d8d1",
             "os": "linux",
-            "status": "cancelled",
-            "remark": "task has been cancelled by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:34:00Z",
+            "start_time": "2025-02-04T09:33:34Z",
+            "end_time": "2025-02-04T09:34:00Z",
             "group_number": 10,
-            "stages": null
+            "stages": [
+                {
+                    "id": "e37b7cac-c839-4564-8664-9f07648321f0",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:33:35Z",
+                    "started_at": "2025-02-04T09:33:35Z",
+                    "updated_at": "2025-02-04T09:34:00Z",
+                    "order": 2,
+                    "task_number": 10
+                }
+            ]
         },
         {
-            "id": "cfe16fc0-76af-4d21-bc63-6a568708f8aa",
+            "id": "3917ed60-8da8-4fc5-82c8-697117cc8ae1",
             "os": "linux",
-            "status": "cancelled",
-            "remark": "task has been cancelled by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:33:52Z",
+            "start_time": "2025-02-04T09:33:36Z",
+            "end_time": "2025-02-04T09:33:52Z",
             "group_number": 11,
-            "stages": null
+            "stages": [
+                {
+                    "id": "2c892dd7-b5ec-448c-afd2-e74546cf04f5",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:33:37Z",
+                    "started_at": "2025-02-04T09:33:37Z",
+                    "updated_at": "2025-02-04T09:33:52Z",
+                    "order": 2,
+                    "task_number": 11
+                }
+            ]
         },
         {
-            "id": "4027064f-3bdf-47e9-beab-1d6ce85f25bc",
+            "id": "75e7b9e1-9845-49b5-b154-bb74b9bd1751",
             "os": "linux",
-            "status": "cancelled",
-            "remark": "task has been cancelled by user",
+            "status": "failed",
+            "remark": "step 2 - exit status 1",
             "debug": false,
-            "created_at": "2025-02-04T09:13:23Z",
-            "update_at": "2025-02-04T09:14:28Z",
-            "start_time": "0001-01-01T00:00:00Z",
-            "end_time": "2025-02-04T09:14:28Z",
+            "created_at": "2025-02-04T09:28:40Z",
+            "update_at": "2025-02-04T09:34:25Z",
+            "start_time": "2025-02-04T09:34:09Z",
+            "end_time": "2025-02-04T09:34:25Z",
             "group_number": 12,
-            "stages": null
+            "stages": [
+                {
+                    "id": "73f50b9f-5f46-4cb5-b7fc-d6e769d6ff04",
+                    "type": "prerun",
+                    "status": "failed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2025-02-04T09:34:09Z",
+                    "started_at": "2025-02-04T09:34:09Z",
+                    "updated_at": "2025-02-04T09:34:25Z",
+                    "order": 2,
+                    "task_number": 12
+                }
+            ]
         }
     ],
     "test_ids": null

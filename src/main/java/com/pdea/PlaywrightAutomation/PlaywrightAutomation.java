@@ -49,10 +49,9 @@ public class PlaywrightAutomation {
         // Launch the browser
         caps = URLEncoder.encode(capabilities.toString(), "utf-8");
         cdpUrl = "wss://cdp.lambdatest.com/playwright?capabilities=" + caps;
-        browser = chromium.connect(cdpUrl);
+        browser = playwright.chromium().connect(cdpUrl);
 
-        BrowserContext context = browser.newContext(new Browser.NewContextOptions().setIgnoreHTTPSErrors(true));
-        page = context.newPage();
+        page = browser.newPage();
     }
 
     @Test(priority = 1)

@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="81115" started-at="2025-02-04T07:48:31Z" finished-at="2025-02-04T07:49:52Z">
+  <suite name="Suite" duration-ms="50430" started-at="2025-02-04T15:19:31Z" finished-at="2025-02-04T15:20:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="81115" started-at="2025-02-04T07:48:31Z" finished-at="2025-02-04T07:49:52Z">
+    <test name="Test" duration-ms="50430" started-at="2025-02-04T15:19:31Z" finished-at="2025-02-04T15:20:22Z">
       <class name="com.pdea.PlaywrightAutomation.PlaywrightAutomation">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="setup" is-config="true" duration-ms="21490" started-at="2025-02-04T07:48:31Z" finished-at="2025-02-04T07:48:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="setup" is-config="true" duration-ms="17511" started-at="2025-02-04T15:19:31Z" finished-at="2025-02-04T15:19:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_scenario1()[pri:1, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="test_scenario1" duration-ms="10630" started-at="2025-02-04T07:48:53Z" finished-at="2025-02-04T07:49:03Z">
+        <test-method status="PASS" signature="test_scenario1()[pri:1, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="test_scenario1" duration-ms="2653" started-at="2025-02-04T15:19:49Z" finished-at="2025-02-04T15:19:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_scenario1 -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="quitDriver" is-config="true" duration-ms="32" started-at="2025-02-04T07:49:03Z" finished-at="2025-02-04T07:49:03Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="quitDriver" is-config="true" duration-ms="17" started-at="2025-02-04T15:19:52Z" finished-at="2025-02-04T15:19:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="setup" is-config="true" duration-ms="12735" started-at="2025-02-04T07:49:03Z" finished-at="2025-02-04T07:49:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="setup" is-config="true" duration-ms="7169" started-at="2025-02-04T15:19:52Z" finished-at="2025-02-04T15:19:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test_scenario2()[pri:2, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="test_scenario2" duration-ms="9791" started-at="2025-02-04T07:49:16Z" finished-at="2025-02-04T07:49:26Z">
+        <test-method status="PASS" signature="test_scenario2()[pri:2, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="test_scenario2" duration-ms="4806" started-at="2025-02-04T15:19:59Z" finished-at="2025-02-04T15:20:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_scenario2 -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="quitDriver" is-config="true" duration-ms="30" started-at="2025-02-04T07:49:26Z" finished-at="2025-02-04T07:49:26Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="quitDriver" is-config="true" duration-ms="53" started-at="2025-02-04T15:20:04Z" finished-at="2025-02-04T15:20:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="setup" is-config="true" duration-ms="12231" started-at="2025-02-04T07:49:26Z" finished-at="2025-02-04T07:49:38Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="setup" is-config="true" duration-ms="10803" started-at="2025-02-04T15:20:04Z" finished-at="2025-02-04T15:20:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="test_scenario3()[pri:3, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="test_scenario3" duration-ms="14075" started-at="2025-02-04T07:49:38Z" finished-at="2025-02-04T07:49:52Z">
+        <test-method status="FAIL" signature="test_scenario3()[pri:3, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="test_scenario3" duration-ms="7296" started-at="2025-02-04T15:20:14Z" finished-at="2025-02-04T15:20:22Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -45,7 +45,7 @@ Error message not as expected expected [Please fill out this field.] but found [
               <![CDATA[java.lang.AssertionError: The following asserts failed:
 Error message not as expected expected [Please fill out this field.] but found [null]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-at com.pdea.PlaywrightAutomation.PlaywrightAutomation.test_scenario3(PlaywrightAutomation.java:147)
+at com.pdea.PlaywrightAutomation.PlaywrightAutomation.test_scenario3(PlaywrightAutomation.java:146)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -65,7 +65,7 @@ at java.lang.Thread.run(Unknown Source)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_scenario3 -->
-        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="quitDriver" is-config="true" duration-ms="20" started-at="2025-02-04T07:49:52Z" finished-at="2025-02-04T07:49:52Z">
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.pdea.PlaywrightAutomation.PlaywrightAutomation@5a4aa2f2]" name="quitDriver" is-config="true" duration-ms="33" started-at="2025-02-04T15:20:22Z" finished-at="2025-02-04T15:20:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitDriver -->

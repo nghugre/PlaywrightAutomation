@@ -14,7 +14,7 @@ postDirectives:
     shell: ""
     workingDirectory: ""
 env:
-    TARGET_OS: Windows 11
+    TARGET_OS: Windows 10
 jobLabel:
     - hybrid-mode
 runson: ${matrix.os}
@@ -37,7 +37,7 @@ cacheDirectories:
 cacheKey: '{{ checksum "pom.xml" }}'
 retryOnFailure: true
 maxRetries: 1
-jobID: d275ba27-24cb-4c86-a99a-c43462921596
+jobID: 59692771-bf7c-4357-af5d-fadf5002f28b
 mergeArtifacts: true
 uploadArtefacts:
     - name: Surefire-Report
