@@ -46,7 +46,7 @@ testDiscovery:
   command: "grep -rl '@Test' src/main/java/com/pdea/PlaywrightAutomation/PlaywrightAutomation.java | awk -F'/' '{print substr($NF, 1, length($NF)-5)}'"
 
 # Test runner commands for each platform
-winTestRunnerCommand: "mvn test -Dplatname=win -Dmaven.repo.local=./.m2 -Dtest=$test surefire-report:report"
-linuxTestRunnerCommand: "mvn test -Dplatname=linux -Dmaven.repo.local=./.m2 -Dtest=$test surefire-report:report"
+winTestRunnerCommand: "mvn test --Dplatname=win --Dmaven.repo.local=./.m2 --Dtest=$test surefire-report:report"
+linuxTestRunnerCommand: "mvn test --Dplatname=linux --Dmaven.repo.local=./.m2 --Dtest=$test surefire-report:report"
 
 jobLabel: ['hybrid-mode']
