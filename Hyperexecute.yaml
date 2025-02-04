@@ -1,0 +1,53 @@
+---
+version: 0.1
+globalTimeout: 150
+testSuiteTimeout: 10
+testSuiteStep: 150
+
+runson: ${matrix.os}
+
+autosplit: true
+concurrency: 3
+retryOnFailure: true
+maxRetries: 1
+
+matrix:
+  os: [win, linux]
+  browser: ["Chrome", "Firefox"]
+parallelism: 3
+
+env:
+  TARGET_OS: Windows 10
+
+# Dependency caching for Windows
+cacheKey: '{{ checksum "pom.xml" }}'
+cacheDirectories:
+  - .m2
+
+# Pre-execution steps
+pre:
+  # Install the required Playwright version
+  - npm install playwright@1.49.0 --save-exact
+  # Download and install Maven packages
+  - mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install
+
+report: true
+
+mergeArtifacts: true
+
+uploadArtefacts:
+  - name: Surefire-Report
+    path:
+      - target/surefire-reports/**
+
+# Test discovery command
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: "grep -rl '@Test' src/main/java/com/pdea/PlaywrightAutomation/PlaywrightAutomation.java | awk -F'/' '{print substr($NF, 1, length($NF)-5)}'"
+
+# Test runner commands for each platform
+winTestRunnerCommand: "mvn test -Dplatname=win -Dmaven.repo.local=./.m2 -Dtest=$test surefire-report:report"
+linuxTestRunnerCommand: "mvn test -Dplatname=linux -Dmaven.repo.local=./.m2 -Dtest=$test surefire-report:report"
+
+jobLabel: ['hybrid-mode']
