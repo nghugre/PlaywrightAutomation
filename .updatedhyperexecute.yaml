@@ -3,9 +3,9 @@ user: nitin_ghugare
 key: GB0X4pJZeWJGoh8vnRcG7vdTDbe02AapWYBOS50udqFCPIsjKp
 matrix: {browser: [chrome, firefox], os: [win, linux]}
 testSuites: []
-pre: [mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install]
+pre: [npm install playwright@1.49.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install, npm install lambda-test-sdk --save-exact]
 preDirectives:
-    commands: [mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install]
+    commands: [npm install playwright@1.49.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install, npm install lambda-test-sdk --save-exact]
     maxRetries: 0
     shell: ""
     workingDirectory: ""
@@ -14,7 +14,7 @@ postDirectives:
     shell: ""
     workingDirectory: ""
 env:
-    TARGET_OS: Windows 10
+    TARGET_OS: Windows 11
 jobLabel:
     - hybrid-mode
 runson: ${matrix.os}
@@ -37,7 +37,7 @@ cacheDirectories:
 cacheKey: '{{ checksum "pom.xml" }}'
 retryOnFailure: true
 maxRetries: 1
-jobID: 57662c15-99dc-4f38-9d97-db2bd714a5e7
+jobID: d275ba27-24cb-4c86-a99a-c43462921596
 mergeArtifacts: true
 uploadArtefacts:
     - name: Surefire-Report

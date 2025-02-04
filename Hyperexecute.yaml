@@ -17,7 +17,7 @@ matrix:
 parallelism: 3
 
 env:
-  TARGET_OS: Windows 11
+  TARGET_OS: Windows 10
 
 # Dependency caching for Windows
 cacheKey: '{{ checksum "pom.xml" }}'

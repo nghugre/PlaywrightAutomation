@@ -38,7 +38,7 @@ public class PlaywrightAutomation {
         ltOptions.addProperty("accessKey", accessKey);
         ltOptions.addProperty("visual", true);
         ltOptions.addProperty("video", true);
-        ltOptions.addProperty("platformName", "Windows 11");  
+        ltOptions.addProperty("platformName", "Windows 10");  
         ltOptions.addProperty("browserName", "chrome"); 
         ltOptions.addProperty("browserVersion", "latest"); 
         
