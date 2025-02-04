@@ -26,9 +26,9 @@ cacheDirectories:
 
 # Pre-execution steps
 pre:
-  - npm install playwright@1.49.0 --save-exact
+  #- npm install playwright@1.49.0 --save-exact
   - mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install
-  - npm install lambda-test-sdk --save-exact  # If necessary for LambdaTest
+  #- npm install lambda-test-sdk --save-exact  # If necessary for LambdaTest
 
 report: true
 

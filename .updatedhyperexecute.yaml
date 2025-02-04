@@ -1,11 +1,11 @@
 version: "0.1"
 user: nitin_ghugare
 key: GB0X4pJZeWJGoh8vnRcG7vdTDbe02AapWYBOS50udqFCPIsjKp
-matrix: {browser: [Chrome, Firefox], os: [win, linux]}
+matrix: {browser: [chrome, firefox], os: [win, linux]}
 testSuites: []
-pre: [npm install playwright@1.49.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install]
+pre: [npm install playwright@1.49.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install, npm install lambda-test-sdk --save-exact]
 preDirectives:
-    commands: [npm install playwright@1.49.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install]
+    commands: [npm install playwright@1.49.0 --save-exact, mvn -Dmaven.repo.local=./.m2 -Dmaven.test.skip=false clean install, npm install lambda-test-sdk --save-exact]
     maxRetries: 0
     shell: ""
     workingDirectory: ""
@@ -37,7 +37,7 @@ cacheDirectories:
 cacheKey: '{{ checksum "pom.xml" }}'
 retryOnFailure: true
 maxRetries: 1
-jobID: a05c9161-f0d7-4c8e-b2df-62345a08eed3
+jobID: 3b1d1dc6-6ea6-42fa-9f3a-e3ef60a50236
 mergeArtifacts: true
 uploadArtefacts:
     - name: Surefire-Report
