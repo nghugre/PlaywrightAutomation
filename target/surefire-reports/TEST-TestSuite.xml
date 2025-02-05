@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="53.061" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="78.387" tests="3" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin"/>
-    <property name="sun.java.command" value="C:\Users\nitin\AppData\Local\Temp\surefire5154333389370666990\surefirebooter-20250204204928430_3.jar C:\Users\nitin\AppData\Local\Temp\surefire5154333389370666990 2025-02-04T20-49-27_382-jvmRun1 surefire-20250204204928430_1tmp surefire_0-20250204204928430_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nitin\AppData\Local\Temp\surefire3892857398573185909\surefirebooter-20250205193044934_3.jar C:\Users\nitin\AppData\Local\Temp\surefire3892857398573185909 2025-02-05T19-30-44_492-jvmRun1 surefire-20250205193044934_1tmp surefire_0-20250205193044934_2tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\nitin\Dropbox\My PC (LAPTOP-C379US1T)\Downloads\SPED\Jan23Workspace\PlaywrightAutomation\target\test-classes;C:\Users\nitin\Dropbox\My PC (LAPTOP-C379US1T)\Downloads\SPED\Jan23Workspace\PlaywrightAutomation\target\classes;C:\Users\nitin\.m2\repository\com\microsoft\playwright\playwright\1.49.0\playwright-1.49.0.jar;C:\Users\nitin\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\nitin\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\nitin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\nitin\.m2\repository\com\microsoft\playwright\driver\1.49.0\driver-1.49.0.jar;C:\Users\nitin\.m2\repository\com\microsoft\playwright\driver-bundle\1.49.0\driver-bundle-1.49.0.jar;C:\Users\nitin\.m2\repository\org\testng\testng\6.14.2\testng-6.14.2.jar;C:\Users\nitin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nitin\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\nitin"/>
@@ -26,12 +26,13 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jre1.8.0_251"/>
     <property name="basedir" value="C:\Users\nitin\Dropbox\My PC (LAPTOP-C379US1T)\Downloads\SPED\Jan23Workspace\PlaywrightAutomation"/>
+    <property name="style.color" value="always"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\nitin\AppData\Local\Temp\surefire5154333389370666990\surefirebooter-20250204204928430_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nitin\AppData\Local\Temp\surefire3892857398573185909\surefirebooter-20250205193044934_3.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_251\lib\resources.jar;C:\Program Files\Java\jre1.8.0_251\lib\rt.jar;C:\Program Files\Java\jre1.8.0_251\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_251\lib\jce.jar;C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_251\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +53,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-17.0.5\bin123;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\nitin\Dropbox\My PC (LAPTOP-C379US1T)\Downloads\apache-maven-3.9.1\bin;C:\Program Files\Java\jre1.8.0_251\bin;C:\Program Files\Go\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nitin\AppData\Local\Microsoft\WindowsApps;C:\Users\nitin\AppData\Roaming\npm;C:\Users\nitin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nitin\.dotnet\tools;C:\Users\nitin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Users\nitin\go\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk-17.0.5\bin123;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\nitin\Dropbox\My PC (LAPTOP-C379US1T)\Downloads\apache-maven-3.9.1\bin;C:\Program Files\Java\jre1.8.0_251\bin;C:\Program Files\Go\bin;C:\Program Files\Java\jdk-21\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\nitin\AppData\Local\Microsoft\WindowsApps;C:\Users\nitin\AppData\Roaming\npm;C:\Users\nitin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nitin\.dotnet\tools;C:\Users\nitin\AppData\Local\GitHubDesktop\bin;C:\Program Files\Java\jdk-17.0.5\bin;C:\Users\nitin\go\bin;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.251-b08"/>
@@ -60,18 +61,76 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test_scenario1" classname="com.pdea.PlaywrightAutomation.PlaywrightAutomation" time="2.646">
+  <testcase name="test_scenario1" classname="com.pdea.PlaywrightAutomation.PlaywrightAutomation" time="30.039">
+    <failure message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\progress.js:75:26)&#10;    at Frame.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\frames.js:521:23)&#10;    at FrameDispatcher.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\frameDispatcher.js:82:119)&#10;    at FrameDispatcher._handleCommand (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:361:39)&#10;    at processTicksAndRejections (node:internal/process/task_queues:96:5)&#10;}&#10;Call log:&#10;-   - navigating to &quot;https://www.lambdatest.com/selenium-playground&quot;, waiting until &quot;load&quot;&#10;" type="com.microsoft.playwright.TimeoutError"><![CDATA[com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\progress.js:75:26)
+    at Frame.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:361:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+Call log:
+-   - navigating to "https://www.lambdatest.com/selenium-playground", waiting until "load"
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.pdea.PlaywrightAutomation.PlaywrightAutomation.test_scenario1(PlaywrightAutomation.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\progress.js:75:26)
+    at Frame.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:361:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+Call log:
+-   - navigating to "https://www.lambdatest.com/selenium-playground", waiting until "load"
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 23 more
+]]></failure>
     <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
-Welcome to LambdaTest
 ]]></system-out>
   </testcase>
-  <testcase name="test_scenario2" classname="com.pdea.PlaywrightAutomation.PlaywrightAutomation" time="4.817"/>
-  <testcase name="test_scenario3" classname="com.pdea.PlaywrightAutomation.PlaywrightAutomation" time="7.31">
+  <testcase name="test_scenario2" classname="com.pdea.PlaywrightAutomation.PlaywrightAutomation" time="5.583"/>
+  <testcase name="test_scenario3" classname="com.pdea.PlaywrightAutomation.PlaywrightAutomation" time="7.9">
     <failure message="The following asserts failed:&#10;	Error message not as expected expected [Please fill out this field.] but found [null]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 The following asserts failed:
 	Error message not as expected expected [Please fill out this field.] but found [null]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
-	at com.pdea.PlaywrightAutomation.PlaywrightAutomation.test_scenario3(PlaywrightAutomation.java:146)
+	at com.pdea.PlaywrightAutomation.PlaywrightAutomation.test_scenario3(PlaywrightAutomation.java:147)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)

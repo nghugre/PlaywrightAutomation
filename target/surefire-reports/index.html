@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pdea.PlaywrightAutomation.PlaywrightAutomation" hash-for-method="test_scenario1">test_scenario1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pdea.PlaywrightAutomation.PlaywrightAutomation" hash-for-method="test_scenario3">test_scenario3</a> <!-- method navigator-link -->
@@ -114,11 +119,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pdea.PlaywrightAutomation.PlaywrightAutomation" hash-for-method="test_scenario1">test_scenario1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.pdea.PlaywrightAutomation.PlaywrightAutomation" hash-for-method="test_scenario2">test_scenario2</a> <!-- method navigator-link -->
@@ -144,12 +144,68 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="test_scenario1">
+                  </a> <!-- test_scenario1 -->
+                  <span class="method-name">test_scenario1</span>
+                  <div class="stack-trace">com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\progress.js:75:26)
+    at Frame.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:361:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+Call log:
+-   - navigating to &quot;https://www.lambdatest.com/selenium-playground&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:132)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:118)
+	at com.microsoft.playwright.impl.FrameImpl.navigateImpl(FrameImpl.java:463)
+	at com.microsoft.playwright.impl.PageImpl.lambda$navigate$47(PageImpl.java:943)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:97)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:943)
+	at com.microsoft.playwright.impl.PageImpl.navigate(PageImpl.java:42)
+	at com.microsoft.playwright.Page.navigate(Page.java:5474)
+	at com.pdea.PlaywrightAutomation.PlaywrightAutomation.test_scenario1(PlaywrightAutomation.java:60)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message=&apos;Timeout 30000ms exceeded.
+  name=&apos;TimeoutError
+  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\progress.js:75:26)
+    at Frame.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\frames.js:521:23)
+    at FrameDispatcher.goto (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\frameDispatcher.js:82:119)
+    at FrameDispatcher._handleCommand (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (E:\lambda-node-remote-client\playwright_utils\node_modules\playwright\node_modules\playwright-core\lib\server\dispatchers\dispatcher.js:361:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+}
+Call log:
+-   - navigating to &quot;https://www.lambdatest.com/selenium-playground&quot;, waiting until &quot;load&quot;
+
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:130)
+	... 23 more
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="test_scenario3">
                   </a> <!-- test_scenario3 -->
                   <span class="method-name">test_scenario3</span>
                   <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
 	Error message not as expected expected [Please fill out this field.] but found [null]
-	at com.pdea.PlaywrightAutomation.PlaywrightAutomation.test_scenario3(PlaywrightAutomation.java:146)
+	at com.pdea.PlaywrightAutomation.PlaywrightAutomation.test_scenario3(PlaywrightAutomation.java:147)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
@@ -165,13 +221,6 @@
               <span class="class-name">com.pdea.PlaywrightAutomation.PlaywrightAutomation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_scenario1">
-                  </a> <!-- test_scenario1 -->
-                  <span class="method-name">test_scenario1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="test_scenario2">
@@ -235,22 +284,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_scenario3')
+data.setCell(0, 1, 'test_scenario1')
 data.setCell(0, 2, 'com.pdea.PlaywrightAutomation.PlaywrightAutomation')
-data.setCell(0, 3, 7296);
+data.setCell(0, 3, 30044);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_scenario2')
+data.setCell(1, 1, 'test_scenario3')
 data.setCell(1, 2, 'com.pdea.PlaywrightAutomation.PlaywrightAutomation')
-data.setCell(1, 3, 4806);
+data.setCell(1, 3, 7916);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_scenario1')
+data.setCell(2, 1, 'test_scenario2')
 data.setCell(2, 2, 'com.pdea.PlaywrightAutomation.PlaywrightAutomation')
-data.setCell(2, 3, 2653);
+data.setCell(2, 3, 5583);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -282,38 +331,40 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">test_scenario1</span>
-                <span class="method-start">17511 ms</span>
+                <span class="method-start">14847 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">20164 ms</span>
+                <span class="method-start">44901 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">20181 ms</span>
+                <span class="method-start">44921 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test_scenario2</span>
-                <span class="method-start">27350 ms</span>
+                <span class="method-start">54096 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">32167 ms</span>
+                <span class="method-start">59679 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">32220 ms</span>
+                <span class="method-start">59696 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test_scenario3</span>
-                <span class="method-start">43023 ms</span>
+                <span class="method-start">68996 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitDriver</span>
-                <span class="method-start">50335 ms</span>
+                <span class="method-start">76912 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

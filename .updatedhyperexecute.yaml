@@ -37,7 +37,7 @@ cacheDirectories:
 cacheKey: '{{ checksum "pom.xml" }}'
 retryOnFailure: true
 maxRetries: 1
-jobID: 66ab0912-8635-4b39-bb05-108bd9f791dc
+jobID: 40e96cf1-b9d8-4e62-ac78-ab4547684fca
 mergeArtifacts: true
 uploadArtefacts:
     - name: Surefire-Report
@@ -50,8 +50,8 @@ uploadArtefacts:
 parallelism: 3
 linuxParallelism: 3
 winParallelism: 3
-winTestRunnerCommand: mvn test -Dplatname=win -Dmaven.repo.local=./.m2 -Dtest=$test surefire-report:report
-linuxTestRunnerCommand: mvn test -Dplatname=linux -Dmaven.repo.local=./.m2 -Dtest=$test surefire-report:report
+winTestRunnerCommand: mvn test --Dplatname=win --Dmaven.repo.local=./.m2 --Dtest=$test surefire-report:report
+linuxTestRunnerCommand: mvn test --Dplatname=linux --Dmaven.repo.local=./.m2 --Dtest=$test surefire-report:report
 codeDirectory: PlaywrightAutomation
 report: true
 framework:
